@@ -3,9 +3,7 @@
 set -o errexit
 set -o errtrace
 
-source ${rr_home:-$HOME/.rr}/require.sh
-
-require "lib/msg.sh"
+require "lib/console.sh"
 
 if [[ -z $1 ]] 
 then
